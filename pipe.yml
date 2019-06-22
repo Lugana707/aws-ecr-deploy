@@ -5,10 +5,10 @@ variables:
    default: '${AWS_SECRET_ACCESS_KEY}'
  - name: AWS_ACCESS_KEY_ID
    default: '${AWS_ACCESS_KEY_ID}'
- - name: AWS_ECR_URL
-   default: '${AWS_ECR_URL}'
- - name: AWS_REGION
-   default: '${AWS_REGION}'
+ - name: ECR_URL
+   default: '${ECR_URL}'
+ - name: AWS_DEFAULT_REGION
+   default: '${AWS_DEFAULT_REGION}'
 description: Pushes container images to AWS' Elastic Container Registry
 repository: aws-ecr-deploy
 maintainer: lugana707@github

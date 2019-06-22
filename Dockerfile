@@ -4,4 +4,4 @@ LABEL maintainer="github@lugana707"
 
 WORKDIR /src
 ADD pipe.sh .
-ENTRYPOINT [ "./pipe.sh" ]
+ENTRYPOINT [ "/src/pipe.sh" ]
